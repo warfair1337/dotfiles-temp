@@ -1,0 +1,35 @@
+background = 000000
+foreground = ffffff
+background-opacity = 0.9
+background-blur-radius = 20
+
+# theme = RetroLegends
+theme = shades-of-purple
+# theme = CGA
+
+font-family = "MesloLGS Nerd Font Mono"
+font-size = 14
+
+cursor-style = block
+cursor-color = #af09eb
+
+window-height = 48
+window-width = 160
+window-padding-x = 2
+window-padding-balance = true
+window-vsync = true
+window-colorspace = display-p3
+window-inherit-working-directory = false
+window-save-state = never
+window-step-resize = true
+window-new-tab-position = end
+
+macos-titlebar-proxy-icon = hidden
+macos-auto-secure-input = true
+
+mouse-hide-while-typing = true
+copy-on-select = true
+
+shell-integration-features = sudo
+shell-integration-features = no-cursor
+quit-after-last-window-closed = true
