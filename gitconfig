@@ -1,0 +1,21 @@
+[filter "lfs"]
+	required = true
+	clean = git-lfs clean -- %f
+	smudge = git-lfs smudge -- %f
+	process = git-lfs filter-process
+[user]
+	name = Kenneth Bjorke
+	email = kenneth@bjorke.me
+[color]
+	ui = true
+[core]
+	editor = nano
+[credential]
+	helper = 
+	helper = /usr/local/share/gcm-core/git-credential-manager
+[credential "https://dev.azure.com"]
+	useHttpPath = true
+[ini]
+	defaultBranch = main
+[init]
+	defaultBranch = main
